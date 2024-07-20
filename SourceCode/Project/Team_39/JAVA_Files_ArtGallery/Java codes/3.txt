@@ -1,0 +1,48 @@
+3.Exhibition
+import java.util.Date;
+public class Exhibition {
+    private int exhibitionId;
+    private String title;
+    private Date startDate;
+    private Date endDate;
+    private String curator;
+    public Exhibition(int exhibitionId, String title, Date startDate, Date endDate, String curator) {
+        this.exhibitionId = exhibitionId;
+        this.title = title;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.curator = curator;
+    }
+    public int getExhibitionId() {
+        return exhibitionId;
+    }
+    public void setExhibitionId(int exhibitionId) {
+        this.exhibitionId = exhibitionId;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public Date getStartDate() {
+        return startDate;
+    }
+    public void setStartDate(Date startDate) {
+        this.startDate = startDate;
+    }
+    public Date getEndDate() {
+        return endDate;
+    }
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
+    }
+    public String getCurator() {
+        return curator;
+    }
+    public void setCurator(String curator) {
+        this.curator = curator;
+    }
+}

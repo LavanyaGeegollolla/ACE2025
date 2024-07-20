@@ -1,0 +1,46 @@
+4.Sale
+import java.util.Date;
+public class Sale {
+    private int saleId;
+    private int artworkId;
+    private int customerId;
+    private Date saleDate;
+    private double price;
+    public Sale(int saleId, int artworkId, int customerId, Date saleDate, double price) {
+        this.saleId = saleId;
+        this.artworkId = artworkId;
+        this.customerId = customerId;
+        this.saleDate = saleDate;
+        this.price = price;
+    }
+    public int getSaleId() {
+        return saleId;
+    }
+    public void setSaleId(int saleId) {
+        this.saleId = saleId;
+    }
+    public int getArtworkId() {
+        return artworkId;
+    }
+    public void setArtworkId(int artworkId) {
+        this.artworkId = artworkId;
+    }
+    public int getCustomerId() {
+        return customerId;
+    }
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+    public Date getSaleDate() {
+        return saleDate;
+    }
+    public void setSaleDate(Date saleDate) {
+        this.saleDate = saleDate;
+    }
+    public double getPrice() {
+        return price;
+    }
+    public void setPrice(double price) {
+        this.price = price;
+    }
+}

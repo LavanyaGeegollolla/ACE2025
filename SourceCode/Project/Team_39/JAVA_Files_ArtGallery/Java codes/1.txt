@@ -1,0 +1,65 @@
+1.Artwork
+import java.util.Date;
+public class Artwork {
+    private int artworkId;
+    private String title;
+    private int artistId;
+    private String genre;
+    private int creationYear;
+    private double price;
+    private String status;
+
+    public Artwork(int artworkId, String title, int artistId, String genre, int creationYear, double price, String status) {
+        this.artworkId = artworkId;
+        this.title = title;
+        this.artistId = artistId;
+        this.genre = genre;
+        this.creationYear = creationYear;
+        this.price = price;
+        this.status = status;
+    }
+    public int getArtworkId() {
+        return artworkId;
+    }
+    public void setArtworkId(int artworkId) {
+        this.artworkId = artworkId;
+    }
+    public String getTitle() {
+        return title;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public int getArtistId() {
+        return artistId;
+    }
+    public void setArtistId(int artistId) {
+        this.artistId = artistId;
+    }
+    public String getGenre() {
+        return genre;
+    }
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+    public int getCreationYear() {
+        return creationYear;
+    }
+    public void setCreationYear(int creationYear) {
+        this.creationYear = creationYear;
+    }
+    public double getPrice() {
+        return price;
+    }
+    public void setPrice(double price) {
+        this.price = price;
+    }
+    public String getStatus() {
+        return status;
+    }
+    public void setStatus(String status) {
+        this.status = status;
+    }
+}
+
+
